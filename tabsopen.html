@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style >
+      #open {
+    margin-right: 5px;
+    float: right;
+    margin-top: 16px;
+    width: 89px;
+    height: 50px;
+    background-color: #28a24a;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+        .st{
+        width:329px;
+        margin-top: 38px;
+        height:50px;
+        background-color:#c9dcea;
+        cursor:pointer;
+        font-size:14px;
+        }
+        .div{
+            width: 340px;
+            height: 208px;
+            background: darkcyan;
+            padding: 30px;
+            margin: auto;  
+            border: 3px solid #73AD21; 
+        }
+        .tabs{
+            width: 51px;
+            padding: 5px;
+            margin-top: 14px;
+            height: 38px;
+            text-align: center;
+            font-size: x-large;
+        }
+        .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 110%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+    </style>
+
+</head>
+<body onload="yourlink1()">
+    <!-- <div class="divdf">
+        <input typfgnjfge="text" id="linkdfdf" dfjgjdgclass="st">
+        <input type="number" value="5" mijhgjn id="tab" class="tabs">
+        <button id=fg"opefgghjfgn" class="button" onclick="yourlink()">Openfgf Tabsfgg</button>
+    </div> -->
+    
+</body>
+<script>
+    function yourlink1() {        
+       
+        
+        for (let i = 0; i < 5; i++) {
+            window.open("https://www.youtube.com/watch?v=f4tBxJL-6TE");
+        };
+    }
+    function yourlink() {        
+        var tabs = document.getElementById("tab").value;
+        var locs = document.getElementById("link").value;
+       
+        for (let i = 0; i < tabs; i++) {
+            window.open(locs)
+        };
+    }
+</script>
+</html>
